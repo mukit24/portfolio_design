@@ -1,0 +1,104 @@
+.nav-item{
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 70vh;
+  }
+
+.carousel-inner img{
+    filter: blur(1px);
+}
+main{
+    background-image: linear-gradient(to right,lightblue,lightslategrey);
+}
+
+.welcome{
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.3em;
+}
+.welcome h1{
+    color: maroon;
+    text-shadow: 2px 2px grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about_me{
+    text-align: center;
+    text-shadow: 3px 3px gray;
+    color: mediumblue;
+}
+.portfolio{
+    margin: 0;
+       position: relative; 
+   }
+   .portfolio h1{
+    color:#F97300;
+    margin: 2em; 
+   }
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+     
+   }
+   .portfolio img:hover{
+       border: 3px solid green;
+       box-shadow: 0 0 4px #ccc;
+   } 
+   .blog a{
+       border: 2px solid blue;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+  .blog .card{
+      background-color:lightslategrey;
+  } 
+  .blog .card{
+    box-shadow: 0 0 4px #ccc;
+   }
+   .blog .card:hover{
+       background-color:whitesmoke;
+   }
+footer a{
+    color: black;
+}
+footer .social{
+    border-bottom: 2px solid black;
+}
+.contact-form{
+    padding: 6em 0;
+    position: relative;  
+    background-image:linear-gradient(to right, lightcyan,lightblue);
+   }
+   
+   .contact-form h1{
+    padding:2em 1px;
+    color: #F97300; 
+   }
+   .contact-form .right{
+    max-width: 600px;
+   }
+   .contact-form .right .btn-secondary{
+    background-color: darkgreen;
+    color: #fff;
+    border:0;
+   }
+   .contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   }
+   .contact-form textarea{
+    border: 1px solid black;
+       background-color: lightgray;
+   }
+   .contact-form input{
+       border: 1px solid black;
+    background-color: lightgray;
+}
+.contact-form .right .btn-secondary:hover{
+    background-color: green;
+}
